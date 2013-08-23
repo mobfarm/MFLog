@@ -132,4 +132,6 @@ Pod::Spec.new do |s|
   s.dependency 'CocoaLumberjack', '~> 1.6.2'
   s.dependency 'TestFlightSDK', '~> 2.0.0'
   s.dependency 'GoogleAnalytics-iOS-SDK', '~> 3.0.0'
+  s.dependency 'EventTracker', '~> 0.1.0'
+  s.dependency 'MFCommons', '~> 0.1.0'
 end
