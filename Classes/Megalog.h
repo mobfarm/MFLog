@@ -9,6 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "DDLog.h"
 
+#if DEBUG
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+// TODO: change this when we can deploy safely
+// static const int ddLogLevel = LOG_LEVEL_ERROR;
+static const int ddLogLevel = LOG_LEVEL_INFO;
+#endif
+
 #define MFLogError(fmt,...) {\
 [Megalog logErrorWithFormat:fmt,##__VA_ARGS__];\
 }\
