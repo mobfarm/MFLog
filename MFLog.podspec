@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MFLog"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A short description of MFLog."
 
   s.description  = <<-DESC
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mobfarm/MFLog.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/mobfarm/MFLog.git", :tag => "0.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,8 +130,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   # s.dependency 'JSONKit', '~> 1.4'
   s.dependency 'CocoaLumberjack', '~> 1.6.2'
-  s.dependency 'TestFlightSDK', '~> 2.0.0'
-  s.dependency 'GoogleAnalytics-iOS-SDK', '~> 2.0beta4'
-  s.dependency 'EventTracker', '~> 0.1.0'
   s.dependency 'MFCommons', '~> 0.1.0'
 end

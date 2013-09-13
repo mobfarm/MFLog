@@ -12,8 +12,6 @@
 #import "DDASLLogger.h"
 #import "DDTTYLogger.h"
 #import "Commons.h"
-#import "TestFlight.h"
-#import "ETTracker.h"
 
 @implementation Megalog
 
