@@ -11,7 +11,6 @@
 #import "DDFileLogger.h"
 #import "DDASLLogger.h"
 #import "DDTTYLogger.h"
-#import "Commons.h"
 
 @implementation Megalog
 
@@ -122,7 +121,13 @@
 
 +(NSString *)filePathForDefaultLogsDirectory
 {
-    return [[Commons filePathForApplicationCachesDirectory]stringByAppendingPathComponent:@"Logs"];
+    static NSString * directory = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSString * cacheDirectory = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
+        directory = [cacheDirectory stringByAppendingPathComponent:@"Logs"];
+    });
+    return directory;
 }
 
 +(NSString *)defaultLogsDirectory
