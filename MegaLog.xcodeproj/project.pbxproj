@@ -1,478 +1,1229 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		012ADC8D17E75A42006D36EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ADC8C17E75A42006D36EB /* Foundation.framework */; };
-		012ADC8F17E75A42006D36EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ADC8E17E75A42006D36EB /* CoreGraphics.framework */; };
-		012ADC9117E75A42006D36EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ADC9017E75A42006D36EB /* UIKit.framework */; };
-		012ADC9717E75A42006D36EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 012ADC9517E75A42006D36EB /* InfoPlist.strings */; };
-		012ADC9917E75A42006D36EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ADC9817E75A42006D36EB /* main.m */; };
-		012ADC9D17E75A42006D36EB /* MegaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ADC9C17E75A42006D36EB /* MegaAppDelegate.m */; };
-		012ADCA017E75A42006D36EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012ADC9E17E75A42006D36EB /* Main.storyboard */; };
-		012ADCA317E75A42006D36EB /* MegaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ADCA217E75A42006D36EB /* MegaViewController.m */; };
-		012ADCA517E75A42006D36EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012ADCA417E75A42006D36EB /* Images.xcassets */; };
-		012ADCAC17E75A42006D36EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ADCAB17E75A42006D36EB /* XCTest.framework */; };
-		012ADCAD17E75A42006D36EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ADC8C17E75A42006D36EB /* Foundation.framework */; };
-		012ADCAE17E75A42006D36EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ADC9017E75A42006D36EB /* UIKit.framework */; };
-		012ADCB617E75A42006D36EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 012ADCB417E75A42006D36EB /* InfoPlist.strings */; };
-		012ADCB817E75A42006D36EB /* MegaLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ADCB717E75A42006D36EB /* MegaLogTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		012ADCAF17E75A42006D36EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 012ADC8117E75A42006D36EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 012ADC8817E75A42006D36EB;
-			remoteInfo = MegaLog;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		012ADC8917E75A42006D36EB /* MegaLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		012ADC8C17E75A42006D36EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		012ADC8E17E75A42006D36EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		012ADC9017E75A42006D36EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		012ADC9417E75A42006D36EB /* MegaLog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaLog-Info.plist"; sourceTree = "<group>"; };
-		012ADC9617E75A42006D36EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		012ADC9817E75A42006D36EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		012ADC9A17E75A42006D36EB /* MegaLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MegaLog-Prefix.pch"; sourceTree = "<group>"; };
-		012ADC9B17E75A42006D36EB /* MegaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MegaAppDelegate.h; sourceTree = "<group>"; };
-		012ADC9C17E75A42006D36EB /* MegaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaAppDelegate.m; sourceTree = "<group>"; };
-		012ADC9F17E75A42006D36EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		012ADCA117E75A42006D36EB /* MegaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MegaViewController.h; sourceTree = "<group>"; };
-		012ADCA217E75A42006D36EB /* MegaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaViewController.m; sourceTree = "<group>"; };
-		012ADCA417E75A42006D36EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		012ADCAA17E75A42006D36EB /* MegaLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		012ADCAB17E75A42006D36EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		012ADCB317E75A42006D36EB /* MegaLogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaLogTests-Info.plist"; sourceTree = "<group>"; };
-		012ADCB517E75A42006D36EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		012ADCB717E75A42006D36EB /* MegaLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaLogTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		012ADC8617E75A42006D36EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				012ADC8F17E75A42006D36EB /* CoreGraphics.framework in Frameworks */,
-				012ADC9117E75A42006D36EB /* UIKit.framework in Frameworks */,
-				012ADC8D17E75A42006D36EB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		012ADCA717E75A42006D36EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				012ADCAC17E75A42006D36EB /* XCTest.framework in Frameworks */,
-				012ADCAE17E75A42006D36EB /* UIKit.framework in Frameworks */,
-				012ADCAD17E75A42006D36EB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		012ADC8017E75A42006D36EB = {
-			isa = PBXGroup;
-			children = (
-				012ADC9217E75A42006D36EB /* MegaLog */,
-				012ADCB117E75A42006D36EB /* MegaLogTests */,
-				012ADC8B17E75A42006D36EB /* Frameworks */,
-				012ADC8A17E75A42006D36EB /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		012ADC8A17E75A42006D36EB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				012ADC8917E75A42006D36EB /* MegaLog.app */,
-				012ADCAA17E75A42006D36EB /* MegaLogTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		012ADC8B17E75A42006D36EB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				012ADC8C17E75A42006D36EB /* Foundation.framework */,
-				012ADC8E17E75A42006D36EB /* CoreGraphics.framework */,
-				012ADC9017E75A42006D36EB /* UIKit.framework */,
-				012ADCAB17E75A42006D36EB /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		012ADC9217E75A42006D36EB /* MegaLog */ = {
-			isa = PBXGroup;
-			children = (
-				012ADC9B17E75A42006D36EB /* MegaAppDelegate.h */,
-				012ADC9C17E75A42006D36EB /* MegaAppDelegate.m */,
-				012ADC9E17E75A42006D36EB /* Main.storyboard */,
-				012ADCA117E75A42006D36EB /* MegaViewController.h */,
-				012ADCA217E75A42006D36EB /* MegaViewController.m */,
-				012ADCA417E75A42006D36EB /* Images.xcassets */,
-				012ADC9317E75A42006D36EB /* Supporting Files */,
-			);
-			path = MegaLog;
-			sourceTree = "<group>";
-		};
-		012ADC9317E75A42006D36EB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				012ADC9417E75A42006D36EB /* MegaLog-Info.plist */,
-				012ADC9517E75A42006D36EB /* InfoPlist.strings */,
-				012ADC9817E75A42006D36EB /* main.m */,
-				012ADC9A17E75A42006D36EB /* MegaLog-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		012ADCB117E75A42006D36EB /* MegaLogTests */ = {
-			isa = PBXGroup;
-			children = (
-				012ADCB717E75A42006D36EB /* MegaLogTests.m */,
-				012ADCB217E75A42006D36EB /* Supporting Files */,
-			);
-			path = MegaLogTests;
-			sourceTree = "<group>";
-		};
-		012ADCB217E75A42006D36EB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				012ADCB317E75A42006D36EB /* MegaLogTests-Info.plist */,
-				012ADCB417E75A42006D36EB /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		012ADC8817E75A42006D36EB /* MegaLog */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 012ADCBB17E75A42006D36EB /* Build configuration list for PBXNativeTarget "MegaLog" */;
-			buildPhases = (
-				012ADC8517E75A42006D36EB /* Sources */,
-				012ADC8617E75A42006D36EB /* Frameworks */,
-				012ADC8717E75A42006D36EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MegaLog;
-			productName = MegaLog;
-			productReference = 012ADC8917E75A42006D36EB /* MegaLog.app */;
-			productType = "com.apple.product-type.application";
-		};
-		012ADCA917E75A42006D36EB /* MegaLogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 012ADCBE17E75A42006D36EB /* Build configuration list for PBXNativeTarget "MegaLogTests" */;
-			buildPhases = (
-				012ADCA617E75A42006D36EB /* Sources */,
-				012ADCA717E75A42006D36EB /* Frameworks */,
-				012ADCA817E75A42006D36EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				012ADCB017E75A42006D36EB /* PBXTargetDependency */,
-			);
-			name = MegaLogTests;
-			productName = MegaLogTests;
-			productReference = 012ADCAA17E75A42006D36EB /* MegaLogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		012ADC8117E75A42006D36EB /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = Mega;
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = MobFarm;
-				TargetAttributes = {
-					012ADCA917E75A42006D36EB = {
-						TestTargetID = 012ADC8817E75A42006D36EB;
-					};
-				};
-			};
-			buildConfigurationList = 012ADC8417E75A42006D36EB /* Build configuration list for PBXProject "MegaLog" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 012ADC8017E75A42006D36EB;
-			productRefGroup = 012ADC8A17E75A42006D36EB /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				012ADC8817E75A42006D36EB /* MegaLog */,
-				012ADCA917E75A42006D36EB /* MegaLogTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		012ADC8717E75A42006D36EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				012ADCA517E75A42006D36EB /* Images.xcassets in Resources */,
-				012ADC9717E75A42006D36EB /* InfoPlist.strings in Resources */,
-				012ADCA017E75A42006D36EB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		012ADCA817E75A42006D36EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				012ADCB617E75A42006D36EB /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		012ADC8517E75A42006D36EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				012ADCA317E75A42006D36EB /* MegaViewController.m in Sources */,
-				012ADC9D17E75A42006D36EB /* MegaAppDelegate.m in Sources */,
-				012ADC9917E75A42006D36EB /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		012ADCA617E75A42006D36EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				012ADCB817E75A42006D36EB /* MegaLogTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		012ADCB017E75A42006D36EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 012ADC8817E75A42006D36EB /* MegaLog */;
-			targetProxy = 012ADCAF17E75A42006D36EB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		012ADC9517E75A42006D36EB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				012ADC9617E75A42006D36EB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		012ADC9E17E75A42006D36EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				012ADC9F17E75A42006D36EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		012ADCB417E75A42006D36EB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				012ADCB517E75A42006D36EB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		012ADCB917E75A42006D36EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Debug;
-		};
-		012ADCBA17E75A42006D36EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		012ADCBC17E75A42006D36EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MegaLog/MegaLog-Prefix.pch";
-				INFOPLIST_FILE = "MegaLog/MegaLog-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		012ADCBD17E75A42006D36EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MegaLog/MegaLog-Prefix.pch";
-				INFOPLIST_FILE = "MegaLog/MegaLog-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		012ADCBF17E75A42006D36EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MegaLog.app/MegaLog";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MegaLog/MegaLog-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MegaLogTests/MegaLogTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		012ADCC017E75A42006D36EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MegaLog.app/MegaLog";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MegaLog/MegaLog-Prefix.pch";
-				INFOPLIST_FILE = "MegaLogTests/MegaLogTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		012ADC8417E75A42006D36EB /* Build configuration list for PBXProject "MegaLog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				012ADCB917E75A42006D36EB /* Debug */,
-				012ADCBA17E75A42006D36EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		012ADCBB17E75A42006D36EB /* Build configuration list for PBXNativeTarget "MegaLog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				012ADCBC17E75A42006D36EB /* Debug */,
-				012ADCBD17E75A42006D36EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		012ADCBE17E75A42006D36EB /* Build configuration list for PBXNativeTarget "MegaLogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				012ADCBF17E75A42006D36EB /* Debug */,
-				012ADCC017E75A42006D36EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 012ADC8117E75A42006D36EB /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>012ADC8017E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADCC717E75BCF006D36EB</string>
+				<string>012ADCC117E75BA5006D36EB</string>
+				<string>012ADCC217E75BA5006D36EB</string>
+				<string>012ADCC317E75BA5006D36EB</string>
+				<string>012ADCCB17E75CD5006D36EB</string>
+				<string>012ADC9217E75A42006D36EB</string>
+				<string>012ADCB117E75A42006D36EB</string>
+				<string>012ADC8B17E75A42006D36EB</string>
+				<string>012ADC8A17E75A42006D36EB</string>
+				<string>548F5A3292FB4EA6942D07A0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC8117E75A42006D36EB</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>Mega</string>
+				<key>LastUpgradeCheck</key>
+				<string>0500</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>MobFarm</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>012ADCA917E75A42006D36EB</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>012ADC8817E75A42006D36EB</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>012ADC8417E75A42006D36EB</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>012ADC8017E75A42006D36EB</string>
+			<key>productRefGroup</key>
+			<string>012ADC8A17E75A42006D36EB</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>012ADC8817E75A42006D36EB</string>
+				<string>012ADCA917E75A42006D36EB</string>
+			</array>
+		</dict>
+		<key>012ADC8417E75A42006D36EB</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>012ADCB917E75A42006D36EB</string>
+				<string>012ADCBA17E75A42006D36EB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>012ADC8517E75A42006D36EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012ADCCA17E75BCF006D36EB</string>
+				<string>012ADCA317E75A42006D36EB</string>
+				<string>012ADC9D17E75A42006D36EB</string>
+				<string>012ADC9917E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>012ADC8617E75A42006D36EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012ADC8F17E75A42006D36EB</string>
+				<string>012ADC9117E75A42006D36EB</string>
+				<string>012ADC8D17E75A42006D36EB</string>
+				<string>D55A8316FB4A4A268A252280</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>012ADC8717E75A42006D36EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012ADCC617E75BA5006D36EB</string>
+				<string>012ADCA517E75A42006D36EB</string>
+				<string>012ADCC517E75BA5006D36EB</string>
+				<string>012ADC9717E75A42006D36EB</string>
+				<string>012ADCC417E75BA5006D36EB</string>
+				<string>012ADCCC17E75CD5006D36EB</string>
+				<string>012ADCA017E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>012ADC8817E75A42006D36EB</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>012ADCBB17E75A42006D36EB</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A4EEDFE6B63C4D74A42BF284</string>
+				<string>012ADC8517E75A42006D36EB</string>
+				<string>012ADC8617E75A42006D36EB</string>
+				<string>012ADC8717E75A42006D36EB</string>
+				<string>81B74A51DC184CA6AE2A4C0B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MegaLogDemo</string>
+			<key>productName</key>
+			<string>MegaLog</string>
+			<key>productReference</key>
+			<string>012ADC8917E75A42006D36EB</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>012ADC8917E75A42006D36EB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>MegaLogDemo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>012ADC8A17E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADC8917E75A42006D36EB</string>
+				<string>012ADCAA17E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC8B17E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADC8C17E75A42006D36EB</string>
+				<string>012ADC8E17E75A42006D36EB</string>
+				<string>012ADC9017E75A42006D36EB</string>
+				<string>012ADCAB17E75A42006D36EB</string>
+				<string>0C43F6276BA84A39940200FB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC8C17E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>012ADC8D17E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC8C17E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADC8E17E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>012ADC8F17E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC8E17E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADC9017E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>012ADC9117E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC9017E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADC9217E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADC9B17E75A42006D36EB</string>
+				<string>012ADC9C17E75A42006D36EB</string>
+				<string>012ADC9E17E75A42006D36EB</string>
+				<string>012ADCA117E75A42006D36EB</string>
+				<string>012ADCA217E75A42006D36EB</string>
+				<string>012ADCA417E75A42006D36EB</string>
+				<string>012ADC9317E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>MegaLog Demo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9317E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADC9417E75A42006D36EB</string>
+				<string>012ADC9517E75A42006D36EB</string>
+				<string>012ADC9817E75A42006D36EB</string>
+				<string>012ADC9A17E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9417E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>MegaLogDemo-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9517E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADC9617E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9617E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9717E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC9517E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADC9817E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9917E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC9817E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADC9A17E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MegaLogDemo-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9B17E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MegaAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9C17E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MegaAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9D17E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC9C17E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADC9E17E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADC9F17E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADC9F17E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCA017E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC9E17E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCA117E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MegaViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCA217E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MegaViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCA317E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCA217E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCA417E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCA517E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCA417E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCA617E75A42006D36EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012ADCB817E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>012ADCA717E75A42006D36EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012ADCAC17E75A42006D36EB</string>
+				<string>012ADCAE17E75A42006D36EB</string>
+				<string>012ADCAD17E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>012ADCA817E75A42006D36EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012ADCB617E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>012ADCA917E75A42006D36EB</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>012ADCBE17E75A42006D36EB</string>
+			<key>buildPhases</key>
+			<array>
+				<string>012ADCA617E75A42006D36EB</string>
+				<string>012ADCA717E75A42006D36EB</string>
+				<string>012ADCA817E75A42006D36EB</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>012ADCB017E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MegaLogTests</string>
+			<key>productName</key>
+			<string>MegaLogTests</string>
+			<key>productReference</key>
+			<string>012ADCAA17E75A42006D36EB</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>012ADCAA17E75A42006D36EB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>MegaLogTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>012ADCAB17E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>012ADCAC17E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCAB17E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCAD17E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC8C17E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCAE17E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADC9017E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCAF17E75A42006D36EB</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>012ADC8117E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>012ADC8817E75A42006D36EB</string>
+			<key>remoteInfo</key>
+			<string>MegaLog</string>
+		</dict>
+		<key>012ADCB017E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>012ADC8817E75A42006D36EB</string>
+			<key>targetProxy</key>
+			<string>012ADCAF17E75A42006D36EB</string>
+		</dict>
+		<key>012ADCB117E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADCB717E75A42006D36EB</string>
+				<string>012ADCB217E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>MegaLogTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCB217E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADCB317E75A42006D36EB</string>
+				<string>012ADCB417E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCB317E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>MegaLogTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCB417E75A42006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADCB517E75A42006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCB517E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCB617E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCB417E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCB717E75A42006D36EB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MegaLogTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCB817E75A42006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCB717E75A42006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCB917E75A42006D36EB</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>012ADCBA17E75A42006D36EB</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>012ADCBB17E75A42006D36EB</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>012ADCBC17E75A42006D36EB</string>
+				<string>012ADCBD17E75A42006D36EB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>012ADCBC17E75A42006D36EB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>548F5A3292FB4EA6942D07A0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>MegaLog Demo/MegaLogDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>MegaLog Demo/MegaLogDemo-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>012ADCBD17E75A42006D36EB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>548F5A3292FB4EA6942D07A0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>MegaLog Demo/MegaLogDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>MegaLog Demo/MegaLogDemo-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>012ADCBE17E75A42006D36EB</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>012ADCBF17E75A42006D36EB</string>
+				<string>012ADCC017E75A42006D36EB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>012ADCBF17E75A42006D36EB</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/MegaLog.app/MegaLog</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>MegaLog/MegaLog-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>MegaLogTests/MegaLogTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>012ADCC017E75A42006D36EB</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/MegaLog.app/MegaLog</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>MegaLog/MegaLog-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>MegaLogTests/MegaLogTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>012ADCC117E75BA5006D36EB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>LICENSE</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCC217E75BA5006D36EB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>MFLog.podspec</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCC317E75BA5006D36EB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>README.md</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCC417E75BA5006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCC117E75BA5006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCC517E75BA5006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCC217E75BA5006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCC617E75BA5006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCC317E75BA5006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCC717E75BCF006D36EB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>012ADCC817E75BCF006D36EB</string>
+				<string>012ADCC917E75BCF006D36EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCC817E75BCF006D36EB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Megalog.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCC917E75BCF006D36EB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Megalog.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCCA17E75BCF006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCC917E75BCF006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>012ADCCB17E75CD5006D36EB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Podfile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012ADCCC17E75CD5006D36EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>012ADCCB17E75CD5006D36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0C43F6276BA84A39940200FB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>548F5A3292FB4EA6942D07A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81B74A51DC184CA6AE2A4C0B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>A4EEDFE6B63C4D74A42BF284</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>D55A8316FB4A4A268A252280</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0C43F6276BA84A39940200FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>012ADC8117E75A42006D36EB</string>
+</dict>
+</plist>

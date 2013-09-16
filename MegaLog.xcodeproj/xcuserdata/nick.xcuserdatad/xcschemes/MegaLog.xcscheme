@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "012ADC8817E75A42006D36EB"
-               BuildableName = "MegaLog.app"
-               BlueprintName = "MegaLog"
+               BuildableName = "MegaLogDemo.app"
+               BlueprintName = "MegaLogDemo"
                ReferencedContainer = "container:MegaLog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "012ADC8817E75A42006D36EB"
-            BuildableName = "MegaLog.app"
-            BlueprintName = "MegaLog"
+            BuildableName = "MegaLogDemo.app"
+            BlueprintName = "MegaLogDemo"
             ReferencedContainer = "container:MegaLog.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "012ADC8817E75A42006D36EB"
-            BuildableName = "MegaLog.app"
-            BlueprintName = "MegaLog"
+            BuildableName = "MegaLogDemo.app"
+            BlueprintName = "MegaLogDemo"
             ReferencedContainer = "container:MegaLog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "012ADC8817E75A42006D36EB"
-            BuildableName = "MegaLog.app"
-            BlueprintName = "MegaLog"
+            BuildableName = "MegaLogDemo.app"
+            BlueprintName = "MegaLogDemo"
             ReferencedContainer = "container:MegaLog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
